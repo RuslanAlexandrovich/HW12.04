@@ -1,0 +1,103 @@
+body {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.column {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    position: fixed;
+}
+
+.head {
+    display: flex;
+    width: auto;
+    height: 50px;
+    background-color: rgb(21, 116, 111);
+    color: white;
+    align-items:center;
+    padding-left: 10px;
+    
+}
+
+.fon {
+    display:flex;
+    width: auto;
+    height: 100vh;
+    padding: 40px 20px;
+    background-color: lightseagreen;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.block1{
+    display:block;
+    flex-shrink: 0;
+    margin: 0 20px;
+    width: 400px;
+    height: 100%;
+    background-color: grey;
+    border-radius: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+h4 {
+    display: flex;
+    margin: 0 10px;
+    padding-top: 20px;
+    width: 100%;
+    height: 30px;
+    position: sticky;
+    top: 0;
+    background-color: gray;
+}
+
+.messeng1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    padding: 10px;
+    width: 330px;
+    min-height: 100px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.icons{
+    display: flex;
+    width: 280px;
+    height: 50px;
+    justify-content:flex-start;
+    align-items: flex-end;
+}
+
+img{
+    width: 20px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+.avat {
+    padding: 0 0;
+    width: 50px;
+    height: 50px;
+    justify-content:flex-end;
+   /* align-self: flex-end; */
+}
+
+.blockstart {
+    overflow-y:auto;
+}
+.block3 {
+    overflow-y:auto;
+}
+
+

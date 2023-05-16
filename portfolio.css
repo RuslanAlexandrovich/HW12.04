@@ -1,0 +1,265 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+
+.head{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+}
+
+.head ul{
+    display: flex;
+    width: 50%;
+    list-style-type: none;
+    padding: 0 0;
+    justify-content:space-around;
+    font-size: 15px;
+    align-items: center;
+}
+.head ul li{
+    color: orange;
+    transition: all .1s ease;
+}
+
+.head ul a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 6px;
+    transition: all .1s ease;
+}
+
+.head a:hover{
+    color: orange;
+}
+.head li:hover{
+   border-bottom: 2px solid orange;
+   height: 25px;
+}
+
+.up_photo{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/header-bg.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 695px;
+    justify-content: center;
+    align-items: center;
+}
+.up_photo h2 {
+    padding: 0 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 80px;
+}
+.up_photo h3 {
+    padding: 0 0;
+    margin: 0 0;
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.page2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85vw;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.page2 h2{
+    text-align: center;
+    font-size: 60px;
+    margin: 0 0;
+    font-weight: 600;
+}
+.flex {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-height: 500px;
+    padding-right: 50px;
+}
+.text ul{
+    padding: 0 0;
+    margin: 0 0;
+    list-style-type: none;
+}
+
+.photo{
+    display: flex;
+    background-image: url(images/about.jpg);
+    width: 600px;
+    height: 500px;
+}
+
+.page3 {
+    display: block;
+    width: 85vw;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.page3 h2{
+    text-align: center;
+    font-size: 60px;
+    margin: 0 0;
+    font-weight: 600;
+}
+.works {
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    /* margin: 0 0;
+    padding: 0 0; */
+    flex-wrap: wrap;
+    justify-content:space-between;
+    text-align: center;
+    overflow-y: auto;
+}
+.works img{
+    width: 350px;
+    height: 275px;
+    padding: 15px 0;
+}
+.page3 a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 0, 124);
+    padding: 5px 25px;
+    margin-top: 15px;
+}
+.page3 h4{
+    display: block;
+   padding-top: 10px;
+   margin: 0 auto;
+   text-align: center;
+   color: white;
+   margin-bottom: 10px;
+}
+
+
+.page4 {
+    display: block;
+    width: 85vw;
+    min-height: 100vh;
+    margin: auto;
+}
+.page4 h2{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight:600;
+}
+.member {
+    /* margin: 0 0;
+    padding: 0 0; */
+    display: flex;
+    width: 100%;
+    min-height: 35vh;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+.member figure{
+    margin: 0 0;
+    padding: 0 0;
+    text-align: center;
+    font-weight: 500;
+}
+.twopeople{
+    display: flex;
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.girl{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    background-color: white;
+}
+.photog{
+    background-image: url(images/s.lookdail.jpg);
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.textg {
+    width: 60%;
+    text-align: justify;
+}
+.textg p{
+    font-size: 14px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.textg h5{
+    text-align: right;
+    margin: 10px 0;
+}
+.photom{
+    background-image: url(images/m.tibody.jpg);
+}
+
+
+.foot{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: navy;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menufoot ul{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    margin: 0 auto;
+    justify-content:space-around;
+}
+.menufoot ul a{
+    font-size: 12px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.link{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+.link span{
+    color: white;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.link a{
+    color: white;
+    width: auto;
+    font-size: 12px;
+    
+}
